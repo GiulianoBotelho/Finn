@@ -1,0 +1,91 @@
+header{
+    height: 18vh;
+}
+
+
+h1,h2{
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
+}
+
+body{
+    background-color: #2CB3F3;
+}
+main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+section{
+    background-color: whitesmoke; 
+    width: 50.83vw;
+    height: 70.09vh;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    background-color: #FFE1C9;
+    width: 36vw;
+    height: 40vh;
+    border-radius: 50%;
+    
+    
+}
+form{
+display: flex;
+flex-direction: column;
+position: relative;
+top:150px;
+left: 250px;
+}
+
+figure{
+ 
+    position: relative;
+    top:100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 60px;
+}
+
+.cadastro{
+    height: 60px;
+    width: 220px;
+    border: solid ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    height: 20vh;
+}
+
+.final{
+    height: 8vh;
+    width: 12vw;
+    background-color: rgb(4, 212, 4);
+    border: solid;
+}
+
+.final:hover{
+    transition:500ms;
+    scale: 1.1;
+    color: rgb(1, 67, 1);
+}
+
+input[type="button"]{
+    color:white;
+    border: none;
+    box-shadow: 3px 3px 3px 3px black;
+
+}
